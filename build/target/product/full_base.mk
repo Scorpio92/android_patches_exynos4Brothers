@@ -26,11 +26,12 @@ PRODUCT_PACKAGES := \
     libfwdlockengine \
     WAPPushManager
 
-
-
+# Additional settings used in all AOSP builds
+PRODUCT_PROPERTY_OVERRIDES := \
+    ro.com.android.dateformat=dd-MM-yyyy
 
 # Put en_US first in the list, so make it default.
-PRODUCT_LOCALES := ru_RU
+PRODUCT_LOCALES := en_US
 
 # Get some sounds
 $(call inherit-product-if-exists, frameworks/base/data/sounds/AllAudio.mk)

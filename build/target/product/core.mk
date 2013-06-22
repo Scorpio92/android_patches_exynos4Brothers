@@ -80,6 +80,7 @@ PRODUCT_PACKAGES := \
     libfilterfw \
     libfilterpack_imageproc \
     libgabi++ \
+    libanalogradiobroadcasting \
     libicui18n \
     libicuuc \
     libjavacore \
@@ -117,9 +118,6 @@ PRODUCT_PACKAGES := \
     sensorservice \
     lint \
     uiautomator
-
-PRODUCT_COPY_FILES += \
-    system/core/rootdir/init.trace.rc:root/init.trace.rc 
 
 # host-only dependencies
 ifeq ($(WITH_HOST_DALVIK),true)
