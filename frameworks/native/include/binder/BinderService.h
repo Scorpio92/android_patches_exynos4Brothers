@@ -46,7 +46,6 @@ public:
         IPCThreadState::self()->joinThreadPool();
     }
 
-   //static void instantiate() { publish(); }
    static void instantiate() {
         status_t status = publish();
       if(status != NO_ERROR){
