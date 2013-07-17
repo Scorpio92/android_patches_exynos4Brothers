@@ -26,7 +26,6 @@ PRODUCT_PACKAGES := \
     Calendar \
     CertInstaller \
     DrmProvider \
-    Gallery2 \
     InputDevices \
     LatinIME \
     Provision \
